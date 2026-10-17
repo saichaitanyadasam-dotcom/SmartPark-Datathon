@@ -1,11 +1,12 @@
-# Python
-__pycache__/
-*.py[cod]
+node_modules/
 .venv/
 venv/
-backend/smartpark.db
 .env
-# Node
-node_modules/
-dist/
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+*.db
+*.sqlite
+*.sqlite3
 .DS_Store
